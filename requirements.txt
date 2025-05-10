@@ -1,4 +1,4 @@
-playwright==1.42.0
+
 web3==6.15.1
 click==8.1.7
 pytest==8.0.2
@@ -8,6 +8,5 @@ numpy==2.2.3
 pybind11>=2.12
 qreader==3.16
 pyzbar==0.1.9
-sanic
-flase
+flask
 functions-framework==3.5.0
