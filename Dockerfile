@@ -29,4 +29,6 @@ WORKDIR /app
 
 RUN pip install --upgrade pip && pip install -r requirements.txt
 
-CMD ["python", "server.py"]
+EXPOSE 8080
+
+CMD ["python", "main.py"]
