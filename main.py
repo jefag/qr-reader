@@ -27,7 +27,7 @@ def read_qr_code(screenshot_bytes):
     return decoded_text[0]
 
 @functions_framework.http
-def read_qr(request):
+def qrreader(request):
     """HTTP Cloud Function.
     Args:
         request (flask.Request): The request object.
