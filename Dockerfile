@@ -31,4 +31,4 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 
 EXPOSE 8080
 
-CMD ["python", "main.py"]
+CMD ["functions-framework", "--target=qr_reader", "--port=8080"]
