@@ -27,6 +27,6 @@ RUN apt-get update && apt-get install -y \
 COPY . /e2e
 WORKDIR /e2e
 
-RUN pip install --upgrade pip && pip install -r requirements.txt && python -m playwright install chromium
+RUN pip install --upgrade pip && pip install -r requirements.txt
 
 CMD ["python", "server.py"]
